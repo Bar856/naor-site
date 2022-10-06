@@ -5,7 +5,10 @@ export default function IntroVideo(props) {
 
   return (
     <div fluid id="home" className='video-container'>
-      <video autoPlay loop>
+      <video loop
+          muted
+          autoPlay
+          playsInline>
         <source src={naorVid} type="video/mp4"/>
         Your browser does not support the video tag.
       </video>
