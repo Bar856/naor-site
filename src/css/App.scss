@@ -117,8 +117,8 @@ html{
   color: $baseColor;
 }
 .video-container {
-  height: 100vw;
-  width: 100vh;
+  height: 100vh;
+  width: 100vw;
   position: relative;
 }
 
@@ -135,8 +135,7 @@ html{
   z-index: 1;
   position: relative;
   text-align: center;
-  padding-right: 50vw;
-  padding-top: 100vw;
+  padding-top: 60vh;
 }
 .gifarrow{
   width: 20vw;
