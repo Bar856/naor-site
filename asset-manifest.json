@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/naor-site/static/css/main.e404d069.css",
-    "main.js": "/naor-site/static/js/main.6b91837a.js",
+    "main.css": "/naor-site/static/css/main.ce9fa68c.css",
+    "main.js": "/naor-site/static/js/main.5faddbca.js",
     "static/media/8.png": "/naor-site/static/media/8.810b08550d1a2c871dff.png",
     "static/media/7.png": "/naor-site/static/media/7.8cb3e667a317a3a34d25.png",
     "static/media/6.png": "/naor-site/static/media/6.95a7acb348d919500bac.png",
@@ -11,15 +11,18 @@
     "static/media/3.png": "/naor-site/static/media/3.807d2cbc10c8a400abfb.png",
     "static/media/2.png": "/naor-site/static/media/2.5b658ded3d54950f0d28.png",
     "static/media/9.png": "/naor-site/static/media/9.196cc2e2456c732ffedb.png",
+    "static/media/naorslideshow.mp4": "/naor-site/static/media/naorslideshow.454edde38f234e21ca17.mp4",
     "static/media/logoNaor.png": "/naor-site/static/media/logoNaor.9a16f843c6c5e9094a04.png",
+    "static/media/arrow-gif.gif": "/naor-site/static/media/arrow-gif.056dfb478e400930ebca.gif",
+    "static/media/naorIconBlack.png": "/naor-site/static/media/naorIconBlack.27481dcd087d4884e9c4.png",
     "static/media/OldNewspaperTypes.ttf": "/naor-site/static/media/OldNewspaperTypes.db3851a38ae93f4cc91f.ttf",
-    "static/media/igIcon.png": "/naor-site/static/media/igIcon.7f1cda987b03389e1d4f.png",
+    "static/media/igIcon.png": "/naor-site/static/media/igIcon.f9cfa9023a3c857e4ed9.png",
     "index.html": "/naor-site/index.html",
-    "main.e404d069.css.map": "/naor-site/static/css/main.e404d069.css.map",
-    "main.6b91837a.js.map": "/naor-site/static/js/main.6b91837a.js.map"
+    "main.ce9fa68c.css.map": "/naor-site/static/css/main.ce9fa68c.css.map",
+    "main.5faddbca.js.map": "/naor-site/static/js/main.5faddbca.js.map"
   },
   "entrypoints": [
-    "static/css/main.e404d069.css",
-    "static/js/main.6b91837a.js"
+    "static/css/main.ce9fa68c.css",
+    "static/js/main.5faddbca.js"
   ]
 }
