@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { useState } from 'react';
 import Homepage from './compoments/Homepage';
 import MyNavabr from './compoments/MyNavabr';
 import './css/App.scss';
@@ -13,7 +12,6 @@ import {
 import Container from 'react-bootstrap/esm/Container';
 
 function App() {
-  
   return (
     <div className="App">
       <MyNavabr />

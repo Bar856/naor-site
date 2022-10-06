@@ -13,12 +13,15 @@ export default function Contact() {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send('default_service', 'template_u7qjs6a', toSend, 'KujO7cLgeR4Ob6131')
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    })
+      send('default_service', 'template_w8tczab', toSend, 'd5RVtZiMEsZJiPvN_')
+      .then(function(response) {
+        alert("הטופס נשלח בהצלחה!");
+        document.getElementById("contactForm").reset();
+        console.log('SUCCESS!', response.status, response.text);
+      }, function(error) {
+        alert("אירעה שגיאה בלתי צפויה, נסה שוב מאוחר יותר")
+        console.log('FAILED...', error);
+      })
   };
 
   const handleChange = (e) => {
@@ -26,27 +29,27 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className='aboutCont heightWidth'>
+    <div id="contact" className='aboutCont'>
       <Row >
-        <h4 className='center'>Contact Us</h4>
+        <h4 className='center'>צור קשר</h4>
       </Row>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} id="contactForm">
           <Row >
-            <input onChange={handleChange} maxLength={15} className='formItem smallFont' type="text" placeholder='שם' name="from_name" />
+            <input required onChange={handleChange} maxLength={15} className='formItem smallFont' type="text" placeholder='שם' name="from_name" />
           </Row>
           <Row >
-            <input onChange={handleChange} maxLength={10} className='formItem smallFont' type="text" placeholder='מספר פלאפון' name="from_phone" />
+            <input required onChange={handleChange} maxLength={10} className='formItem smallFont' type="text" placeholder='מספר פלאפון' name="from_phone" />
           </Row>
           <Row >
-            <input onChange={handleChange} maxLength={40} className='formItem smallFont' type="text" placeholder='מייל' name="from_email" />
+            <input required onChange={handleChange} maxLength={40} style={{'direction':'ltr'}} className='formItem smallFont' type="text" placeholder='מייל' name="from_email" />
           </Row>
           <Row >
-            <textarea onChange={handleChange} className='text-flow formItem smallFont' type="text" placeholder='הודעה' name="message"/>
+            <textarea required onChange={handleChange} className='text-flow formItem smallFont' type="text" placeholder='הודעה' name="message"/>
           </Row>
           <Row >
-            <input className='submitBtn formItem rowWidth smallFont' type="submit" value="שלח"/>
+            <input required className='submitBtn formItem rowWidth smallFont' style={{'textAlign':'center'}} type="submit" value="שלח"/>
           </Row>
-        </form>
+      </form>
   </div>
   )
 }
