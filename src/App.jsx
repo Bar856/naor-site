@@ -10,20 +10,25 @@ import {
   Routes,
 } from "react-router-dom";
 import Container from 'react-bootstrap/esm/Container';
+import IntroVideo from './compoments/IntroVideo';
 
 function App() {
   return (
-    <div className="App">
-      <MyNavabr />
-      <Router>
-        <Container fluid>
-          <Routes> 
-            {/* change the path! */}
-            <Route path={'/naor-site'} element={<Homepage/>}/>
-          </Routes>
-        </Container >
-      </Router>
-    </div>
+    <>
+      <div className="App">
+        <MyNavabr />
+        <IntroVideo/>
+        <Router>
+          <Container fluid style={{'textAlign':'center'}}>
+            <Routes> 
+              {/* change the path! */}
+              <Route path={'/naor-site'} element={<Homepage/>}/>
+            </Routes>
+          </Container >
+        </Router>
+      </div>
+    </>
+      
   );
 }
 

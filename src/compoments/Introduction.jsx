@@ -24,7 +24,7 @@ export default function Introduction(props) {
           </div>
         </Col>
         <Col>
-          <div onClick={()=>openInNewTab(("https://api.whatsapp.com/send?phone=972526611137"))} className='smallFont contactItem pinkBoarders hoverMouse'>
+          <div onClick={()=>openInNewTab(("https://api.whatsapp.com/send?phone=972526810742"))} className='smallFont contactItem pinkBoarders hoverMouse'>
             {"שלח הודעה"}
           </div>
         </Col>

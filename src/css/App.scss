@@ -19,6 +19,7 @@ body{
   height: 200px;
 }
 .introContainer{
+  margin-top: 40vh;
   padding: 2vw;
 }
 .contactContainer{
@@ -72,9 +73,7 @@ body{
   width: 58vw;
 }
 // general
-.App {
-  text-align: center;
-}
+
 *{
   text-align: "right";
   direction:'rtl';
@@ -97,12 +96,10 @@ h4{
 .center{
   text-align: center;
 }
-.navBar{
-  opacity: 90%;
-}
+// nav
 .iconNav{
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 html{
   scroll-behavior: smooth;
@@ -119,7 +116,32 @@ html{
 .pink{
   color: $baseColor;
 }
+.video-container {
+  height: 100vw;
+  width: 100vh;
+  position: relative;
+}
 
+.video-container video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-right: 50vw;
+  padding-top: 100vw;
+}
+.gifarrow{
+  width: 20vw;
+  height: 20vh;
+}
 @media (min-width: 768px){
   .imgInto{
     margin-top: 10vh;
