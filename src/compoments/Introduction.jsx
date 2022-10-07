@@ -19,7 +19,7 @@ export default function Introduction(props) {
       </Row>
       <Row className='contactContainer margeSides'>
         <Col>
-          <div onClick={()=>openInNewTab(("tel:972526611137"))} className='smallFont contactItem hoverMouse pinkBoarders '>
+          <div onClick={()=>{window.location = '#contact'}} className='smallFont contactItem hoverMouse pinkBoarders '>
             {"השאר פרטים"}
           </div>
         </Col>

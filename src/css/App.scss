@@ -19,7 +19,6 @@ body{
   height: 200px;
 }
 .introContainer{
-  margin-top: 100%;
   padding: 2vw;
 }
 .contactContainer{
@@ -42,6 +41,12 @@ body{
 // about
 .aboutCont{
   padding: 5vw;
+}
+// plans
+.plansCont{
+  border: 2px solid #000000;
+  border-radius: 20px;
+  margin-top: 2vh;
 }
 
 // contact 
@@ -122,9 +127,9 @@ html{
   position: relative;
 }
 
-.video-container video {
-  width: 100vw;
-  height: 100vh;
+.video-container .introVid {
+  width: 100%;
+  height: 100%;
   position: absolute;
   object-fit: cover;
   z-index: 0;
