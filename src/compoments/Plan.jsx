@@ -1,6 +1,9 @@
 import React from 'react'
 import Row from 'react-bootstrap/esm/Row'
-import motivationVid from '../pics/motivationVid.mp4'
+import motivationVid from '../pics/motivationVid.mp4';
+import group1 from '../pics/group1.jpeg'
+import group2 from '../pics/group2.jpeg'
+import Col from 'react-bootstrap/esm/Col';
 export default function Plan() {
   return (
     <div id="about" className='aboutCont black'>
@@ -9,8 +12,9 @@ export default function Plan() {
       </Row>
       <Row>
         <video className='motivationVid' loop
-            muted
+            controls
             autoPlay
+            muted
             playsInline>
           <source src={motivationVid} type="video/mp4"/>
           Your browser does not support the video tag.
@@ -18,7 +22,7 @@ export default function Plan() {
       </Row>
       <Row className='plansCont'>
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
-        <h3 className='fontColor'>🚩 הכנה לתחרויות<br></br></h3>
+        <h4  className='fontColor'>🚩 הכנה לתחרויות<br></br></h4 >
         
         • שיעורי פוזינג <br></br>
         • תזונה <br></br>
@@ -28,14 +32,14 @@ export default function Plan() {
         • אימון השתלמות איתי בחדר הכושר לשיפור ביצועים<br></br>
         • ליווי שלי עד לרגע הבמה🏆<br></br>
         </p>
-        <h3 className='fontColor'>דרישות:<br></br></h3>
+        <h4  className='fontColor'>דרישות<br></br></h4 >
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
           • מינימום ניסיון שנה וחצי בחדר הכושר<br></br>
           • ראיון אישי לפני התחלת התהליך<br></br>
         </p>
       </Row>
       <Row className='plansCont'>
-        <h3 className='fontColor'>ליווי אונליין<br></br></h3>
+        <h4  className='fontColor'>ליווי אונליין<br></br></h4 >
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
           • שיטות אימון חדשניות ע״פ מחקרים<br></br>
           • פגישות ייעוץ הכוללות שקילות ולקיחת מדדים<br></br>
@@ -45,7 +49,7 @@ export default function Plan() {
         </p>
       </Row>
       <Row className='plansCont'>
-        <h3 className='fontColor'>אימון השתלמות בחדר כושר<br></br></h3>
+        <h4  className='fontColor'>אימון השתלמות בחדר כושר<br></br></h4 >
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
         קבלו את מוצר הפרימיום של הנבחרת שלי 🚩<br></br>
         • שיטות עבודה חדשניות<br></br>
@@ -61,14 +65,15 @@ export default function Plan() {
         (מספר מקומות מוגבל)
         </p>
       </Row>
-
-      <Row>
+      <Row className='plansCont'>
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
           * כחלק מהצטרפות לאחת התוכניות תוצרפו לקבוצת הווצאפ הבלעדית של NMTeam לעדכונים ולהעלאת המוטיבציה!<br></br>
-          <br></br>
-          הקבוצה שלנו כוללת מתאמנים שמתכוננים לתחרויות בארץ ומתאמני חדר כושר רגילים שמעשירים את הידע שלהם מהתוכן שנשלח בקבוצה.<br></br>
-          בנוסף מעלים אחת לשני את המוטיבציה,מצלמים אימונים,סרטוני ביצועים לשיפור טכניקה ועוד…
+          טעימה מהקבוצה שלנו:<br></br>
         </p>
+        <Col>
+          <img className='imgWhatsapp' src={group1} alt="whatsapp group img1" />
+          <img className='imgWhatsapp' src={group2} alt="whatsapp group img2" />
+        </Col>
       </Row>
   </div>
   )
