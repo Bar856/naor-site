@@ -10,7 +10,7 @@ export default function MyNavabr() {
     win.focus();
   }
   return (
-    <Navbar className='navBar' collapseOnSelect={true} sticky="top" fixed='top' id="navbar navbarCont sticky" bg="transperant" variant="dark" expand="lg">
+    <Navbar className='navBar' collapseOnSelect={true} sticky="top" fixed='top' id="navbar navbarCont sticky" bg="black" variant="dark" expand="lg">
       <Container>
         <Navbar.Text className='white' href="#home">
           <a href='#home'>
