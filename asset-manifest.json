@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/naor-site/static/css/main.cd319b0d.css",
-    "main.js": "/naor-site/static/js/main.3f37a26b.js",
+    "main.js": "/naor-site/static/js/main.b0d6cd74.js",
     "static/media/naorslideshow.mp4": "/naor-site/static/media/naorslideshow.ca048160d2a3dc780e1b.mp4",
     "static/media/3.png": "/naor-site/static/media/3.810b08550d1a2c871dff.png",
     "static/media/1.png": "/naor-site/static/media/1.8cb3e667a317a3a34d25.png",
@@ -24,10 +24,10 @@
     "static/media/igIcon.png": "/naor-site/static/media/igIcon.7b5ded60fb333d11648d.png",
     "index.html": "/naor-site/index.html",
     "main.cd319b0d.css.map": "/naor-site/static/css/main.cd319b0d.css.map",
-    "main.3f37a26b.js.map": "/naor-site/static/js/main.3f37a26b.js.map"
+    "main.b0d6cd74.js.map": "/naor-site/static/js/main.b0d6cd74.js.map"
   },
   "entrypoints": [
     "static/css/main.cd319b0d.css",
-    "static/js/main.3f37a26b.js"
+    "static/js/main.b0d6cd74.js"
   ]
 }
