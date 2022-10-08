@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/naor-site/static/css/main.6de8a38c.css",
+    "main.css": "/naor-site/static/css/main.cbdad869.css",
     "main.js": "/naor-site/static/js/main.c9999e95.js",
     "static/media/3.png": "/naor-site/static/media/3.810b08550d1a2c871dff.png",
     "static/media/1.png": "/naor-site/static/media/1.8cb3e667a317a3a34d25.png",
@@ -23,11 +23,11 @@
     "static/media/logoNaor.png": "/naor-site/static/media/logoNaor.ff448591b14e6b57eb32.png",
     "static/media/igIcon.png": "/naor-site/static/media/igIcon.7b5ded60fb333d11648d.png",
     "index.html": "/naor-site/index.html",
-    "main.6de8a38c.css.map": "/naor-site/static/css/main.6de8a38c.css.map",
+    "main.cbdad869.css.map": "/naor-site/static/css/main.cbdad869.css.map",
     "main.c9999e95.js.map": "/naor-site/static/js/main.c9999e95.js.map"
   },
   "entrypoints": [
-    "static/css/main.6de8a38c.css",
+    "static/css/main.cbdad869.css",
     "static/js/main.c9999e95.js"
   ]
 }

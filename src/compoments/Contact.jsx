@@ -38,7 +38,7 @@ export default function Contact() {
             <input required onChange={handleChange} maxLength={15} className='formItem smallFont' type="text" placeholder='שם' name="from_name" />
           </Row>
           <Row >
-            <input required onChange={handleChange} maxLength={10} className='formItem smallFont' type="text" placeholder='מספר פלאפון' name="from_phone" />
+            <input required onChange={handleChange} minLength={10} maxLength={10} className='formItem smallFont' type="text" pattern="[0-9]{10}" placeholder='מספר פלאפון' name="from_phone" />
           </Row>
           <Row >
             <input required onChange={handleChange} maxLength={40} style={{'direction':'ltr'}} className='formItem smallFont' type="text" placeholder='מייל' name="from_email" />

@@ -15,7 +15,7 @@ body{
   background-attachment: fixed;
   background-position: center;
   backdrop-filter: blur(10px);
-  // background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 // naor logo - introduction
 .imgInto{
@@ -52,6 +52,11 @@ body{
   border-radius: 20px;
   margin-top: 2vh;
   padding-top: 2vw;
+}
+.motivationVid{
+  width: 80vw;
+  height: 40vh;
+  margin: auto;
 }
 .imgWhatsapp{
   width: 35vw;
@@ -144,14 +149,11 @@ html{
 }
 
 .video-container .introVid {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   object-fit: cover;
   z-index: 0;
-}
-.introVid{
-  // filter: blur(1px);
 }
 .video-container .caption {
   z-index: 1;
@@ -176,6 +178,10 @@ html{
   .imgWhatsapp{
     width: 25vw;
     height: 70vh;
+  }
+  .motivationVid{
+    width: auto;
+    height: auto;
   }
 }
 /*
