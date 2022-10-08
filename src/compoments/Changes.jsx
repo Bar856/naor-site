@@ -11,7 +11,7 @@ import pic9 from '../pics/9.png'
 export default function Changes() {
   
   return (
-    <div id="djs" className='aboutCont heightWidth black'>
+    <div id="changes" className='aboutCont heightWidth black'>
       <h4 className='fontColor' style={{'direction':'rtl'}}>טעימה מהשינוים של NM Team</h4>
       <img className='changesPics' src={pic1} alt="chnage1" /><br></br>
       <img className='changesPics' src={pic2} alt="chnage1" /><br></br>

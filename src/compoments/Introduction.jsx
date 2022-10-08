@@ -14,7 +14,7 @@ export default function Introduction(props) {
     <div id="home" className='introContainer heightWidth'>
       <Row>
         <Col>
-        <Image className='imgInto' src={pic1} alt="Arcade" />
+        <Image className='imgInto' src={pic1} alt="logo" />
         </Col>
       </Row>
       <Row className='contactContainer margeSides'>

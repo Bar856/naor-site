@@ -1,22 +1,27 @@
 
 $baseColor: #6e008d;
-$fontColor: #000000;
-$navColor: 6e008d;
+$fontColor: #ffffff;
+$navColor: #000000 ;
 * {
   font-family: "David";
   font-weight: "Regular";
 }
+.pk_video {
+}
 // body
 body{
-  // background-color: black;
-  // background-image: url('../pics/bg.jpg');
+  background-color: rgb(0, 0, 0);
+  background-image: url('../pics/bgCont.png');
   background-attachment: fixed;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
 }
 // naor logo - introduction
 .imgInto{
   margin-top: 2vh;
-  width: 330px;
-  height: 200px;
+  width: 20vw;
+  height: 20vh;
 }
 .introContainer{
   padding: 2vw;
@@ -24,27 +29,25 @@ body{
 .contactContainer{
   height: 5vh;
   padding-top: 1vh;
-  background-color: rgb(192, 147, 195);
+  background-color: $fontColor;
   margin-top: 3vh;
 }
 .pinkBoarders{
-  border-left: $baseColor 10px solid;
-  border-right: $baseColor 10px solid;
+  border-left: $navColor 10px solid;
+  border-right: $navColor 10px solid;
 }
-
-// changes
-.changesPics{
-  width: 80vw;
-  height: 50vh;
-}
-
 // about
 .aboutCont{
   padding: 5vw;
 }
+// changes
+.changesPics{
+  width: 70vw;
+  height: 45vh;
+}
 // plans
 .plansCont{
-  border: 2px solid #000000;
+  border: 2px solid $fontColor;
   border-radius: 20px;
   margin-top: 2vh;
   padding-top: 2vw;
@@ -52,7 +55,7 @@ body{
 .imgWhatsapp{
   width: 35vw;
   height: 40vh;
-  margin: 5px;
+  margin: 1vw;
 }
 // contact 
 .submitBtn{
@@ -73,7 +76,7 @@ body{
   border: $navColor 1px solid;
   text-align: right;
   direction: rtl;
-  background-color: $baseColor ;
+  background-color: rgb(70, 70, 70) ;
   width: 58vw;
   color: white;
 }
@@ -92,10 +95,10 @@ body{
   color: $fontColor;
 }
 .smallFont{
-  font-size: 2vh;
+  font-size: 4vw 4vh;
 }
 h4{
-  font-size: 4vh;
+  font-size: 6vw 6vh;
   font-weight: bold;
 }
 .black{
@@ -111,6 +114,9 @@ h4{
 .iconNav{
   width: 50px;
   height: 50px;
+}
+.navBar{
+  text-align: center;
 }
 html{
   scroll-behavior: smooth;
@@ -140,8 +146,9 @@ html{
   object-fit: cover;
   z-index: 0;
 }
-
-/* Just styling the content of the div, the *magic* in the previous rules */
+.introVid{
+  // filter: blur(1px);
+}
 .video-container .caption {
   z-index: 1;
   position: relative;
@@ -155,12 +162,16 @@ html{
 @media (min-width: 768px){
   .imgInto{
     margin-top: 10vh;
-    width: 50vw;
+    width: 20vw;
     height: 30vh;
   }
   .changesPics{
-    width: 40vw;
-    height: 50vh;
+    width: 70vh;
+    height: 70vh;
+  }
+  .imgWhatsapp{
+    width: 25vw;
+    height: 70vh;
   }
 }
 /*

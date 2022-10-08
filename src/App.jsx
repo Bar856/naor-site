@@ -16,16 +16,16 @@ function App() {
   return (
     <>
       <div className="App">
-        <MyNavabr />
-        <IntroVideo/>
-        <Router>
-          <Container fluid style={{'textAlign':'center'}}>
-            <Routes> 
-              {/* change the path! */}
-              <Route path={'/naor-site'} element={<Homepage/>}/>
-            </Routes>
-          </Container >
-        </Router>
+          <MyNavabr />
+          <IntroVideo/>
+        <Container style={{'textAlign':'center'}}>
+          <Router>
+              <Routes> 
+                {/* change the path! */}
+                <Route path={'/naor-site'} element={<Homepage/>}/>
+              </Routes>
+          </Router>
+        </Container >
       </div>
     </>
       

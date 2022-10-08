@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/esm/Row'
 
 export default function About() {
   return (
-    <div id="about" className='aboutCont black'>
+    <div className='aboutCont black'>
       <Row>
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
           אני נאור מחלוף - מר ישראל ומפתח גוף מקצועי.<br></br>

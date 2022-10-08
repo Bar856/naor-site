@@ -31,7 +31,7 @@ export default function Contact() {
   return (
     <div id="contact" className='aboutCont'>
       <Row >
-        <h4 className='center'>צור קשר</h4>
+        <h4 className='center fontColor'>צור קשר</h4>
       </Row>
       <form onSubmit={onSubmit} id="contactForm">
           <Row >

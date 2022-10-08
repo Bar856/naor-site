@@ -6,7 +6,7 @@ import group2 from '../pics/group2.jpeg'
 import Col from 'react-bootstrap/esm/Col';
 export default function Plan() {
   return (
-    <div id="about" className='aboutCont black'>
+    <div id="plans" className='aboutCont black'>
       <Row>
         <h4 className='fontColor'>התכניות שלנו</h4>
       </Row>
@@ -21,8 +21,8 @@ export default function Plan() {
         </video>
       </Row>
       <Row className='plansCont'>
-        <p className='fontColor smallFont' style={{'direction':'rtl'}}>
         <h4  className='fontColor'>🚩 הכנה לתחרויות<br></br></h4 >
+        <p className='fontColor smallFont' style={{'direction':'rtl','textAlign':'right'}}>
         
         • שיעורי פוזינג <br></br>
         • תזונה <br></br>
@@ -33,14 +33,14 @@ export default function Plan() {
         • ליווי שלי עד לרגע הבמה🏆<br></br>
         </p>
         <h4  className='fontColor'>דרישות<br></br></h4 >
-        <p className='fontColor smallFont' style={{'direction':'rtl'}}>
+        <p className='fontColor smallFont' style={{'direction':'rtl','textAlign':'right'}}>
           • מינימום ניסיון שנה וחצי בחדר הכושר<br></br>
           • ראיון אישי לפני התחלת התהליך<br></br>
         </p>
       </Row>
       <Row className='plansCont'>
         <h4  className='fontColor'>ליווי אונליין<br></br></h4 >
-        <p className='fontColor smallFont' style={{'direction':'rtl'}}>
+        <p className='fontColor smallFont' style={{'direction':'rtl','textAlign':'right'}}>
           • שיטות אימון חדשניות ע״פ מחקרים<br></br>
           • פגישות ייעוץ הכוללות שקילות ולקיחת מדדים<br></br>
           • תפריט תזונה מתוחזק בהתאם להתקדמות<br></br>
@@ -50,7 +50,7 @@ export default function Plan() {
       </Row>
       <Row className='plansCont'>
         <h4  className='fontColor'>אימון השתלמות בחדר כושר<br></br></h4 >
-        <p className='fontColor smallFont' style={{'direction':'rtl'}}>
+        <p className='fontColor smallFont' style={{'direction':'rtl','textAlign':'right'}}>
         קבלו את מוצר הפרימיום של הנבחרת שלי 🚩<br></br>
         • שיטות עבודה חדשניות<br></br>
         • חילוק שרירים בצורה נכונה ואפקטיבית<br></br>
@@ -62,16 +62,18 @@ export default function Plan() {
         ועוד ים ידע שאני הולך להעביר אליכם!<br></br>
 
         מלמד אתכם את כל סודות המקצוע והופך אתכם למקצוענים!<br></br>
-        (מספר מקומות מוגבל)
         </p>
+        <p className='center fontColor smallFont'>(מספר מקומות מוגבל)</p>
       </Row>
       <Row className='plansCont'>
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
-          * כחלק מהצטרפות לאחת התוכניות תוצרפו לקבוצת הווצאפ הבלעדית של NMTeam לעדכונים ולהעלאת המוטיבציה!<br></br>
-          טעימה מהקבוצה שלנו:<br></br>
+           כחלק מהצטרפות לאחת התוכניות תוצרפו לקבוצת הווצאפ הבלעדית של NMTeam לעדכונים ולהעלאת המוטיבציה!<br></br>
+          טעימה מהקבוצה שלנו - <br></br>
         </p>
         <Col>
           <img className='imgWhatsapp' src={group1} alt="whatsapp group img1" />
+        </Col>
+        <Col>
           <img className='imgWhatsapp' src={group2} alt="whatsapp group img2" />
         </Col>
       </Row>
