@@ -4,7 +4,7 @@ import arrowGif from '../pics/arrow-gif.gif'
 export default function IntroVideo(props) {
 
   return (
-      <div id="home" className='video-container'>
+      <div onClick={()=>{window.location = ("#about")}} id="home" className='video-container'>
         <video className='introVid' loop
             muted
             autoPlay

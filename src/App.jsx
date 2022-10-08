@@ -17,7 +17,7 @@ function App() {
     <>
       <div className="App">
           <MyNavabr />
-          <IntroVideo/>
+          <IntroVideo />
         <Container style={{'textAlign':'center'}}>
           <Router>
               <Routes> 

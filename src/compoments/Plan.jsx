@@ -1,9 +1,11 @@
 import React from 'react'
 import Row from 'react-bootstrap/esm/Row'
 import motivationVid from '../pics/motivationVid.mp4';
+import whatsappVid from '../pics/whatsappVid.mp4';
 import group1 from '../pics/group1.jpeg'
 import group2 from '../pics/group2.jpeg'
 import Col from 'react-bootstrap/esm/Col';
+import Image from 'react-bootstrap/esm/Image';
 export default function Plan() {
   return (
     <div id="plans" className='aboutCont black'>
@@ -67,15 +69,22 @@ export default function Plan() {
       </Row>
       <Row className='plansCont'>
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>
-           כחלק מהצטרפות לאחת התוכניות תוצרפו לקבוצת הווצאפ הבלעדית של NMTeam לעדכונים ולהעלאת המוטיבציה!<br></br>
-          טעימה מהקבוצה שלנו - <br></br>
+        קבוצת הווצאטפ של NM Team - מתחרים מקצועיים ומתאמני אונליין <br></br>
+        מספר המקומות מוגבל
         </p>
-        <Col>
-          <img className='imgWhatsapp' src={group1} alt="whatsapp group img1" />
-        </Col>
-        <Col>
-          <img className='imgWhatsapp' src={group2} alt="whatsapp group img2" />
-        </Col>
+        {/* <Col> */}
+          <video className='whatsappVid' loop
+              autoPlay
+              muted
+              playsInline>
+            <source src={whatsappVid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+          {/* <Image className='imgWhatsapp' src={group1} alt="whatsapp group img1"/> */}
+        {/* </Col> */}
+        {/* <Col>
+          <Image className='imgWhatsapp' src={group2} alt="whatsapp group img1"/>
+        </Col> */}
       </Row>
   </div>
   )
