@@ -2,10 +2,8 @@ import React from 'react'
 import Row from 'react-bootstrap/esm/Row'
 import motivationVid from '../pics/motivationVid.mp4';
 import whatsappVid from '../pics/whatsappVid.mp4';
-import group1 from '../pics/group1.jpeg'
-import group2 from '../pics/group2.jpeg'
-import Col from 'react-bootstrap/esm/Col';
-import Image from 'react-bootstrap/esm/Image';
+import trainingExample from '../pics/trainingExample.mp4';
+
 export default function Plan() {
   return (
     <div id="plans" className='aboutCont black'>
@@ -66,6 +64,13 @@ export default function Plan() {
         מלמד אתכם את כל סודות המקצוע והופך אתכם למקצוענים!<br></br>
         </p>
         <p className='center fontColor smallFont'>(מספר מקומות מוגבל)</p>
+        
+        <video className='whatsappVid' loop
+              controls
+              playsInline>
+            <source src={trainingExample} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
       </Row>
       <Row className='plansCont'>
         <p className='fontColor smallFont' style={{'direction':'rtl'}}>

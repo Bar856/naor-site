@@ -8,12 +8,16 @@ import pic6 from '../pics/6.png'
 import pic7 from '../pics/7.png'
 import pic8 from '../pics/8.png'
 import pic9 from '../pics/9.png'
+import pic0 from '../pics/0.png'
+import picMin1 from '../pics/-1.png'
 export default function Changes() {
   
   return (
     <div id="changes" className='aboutCont heightWidth black'>
       <h4 className='fontColor' style={{'direction':'rtl'}}>טעימה מהשינוים של NM Team</h4>
+      <img className='changesPics' src={pic0} alt="chnage1" /><br></br>
       <img className='changesPics' src={pic1} alt="chnage1" /><br></br>
+      <img className='changesPics' src={picMin1} alt="chnage1" /><br></br>
       <img className='changesPics' src={pic2} alt="chnage1" /><br></br>
       <img className='changesPics' src={pic3} alt="chnage1" /><br></br>
       <img className='changesPics' src={pic4} alt="chnage1" /><br></br>
