@@ -2,7 +2,7 @@
   "name": "react-tamplet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bar856.github.io/naor-site",
+  "homepage": "http://bar856.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

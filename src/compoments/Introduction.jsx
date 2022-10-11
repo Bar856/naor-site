@@ -9,7 +9,6 @@ export default function Introduction(props) {
     var win = window.open(url, '_blank');
     win.focus();
   }
- 
   return (
     <div id="home" className='introContainer heightWidth'>
       <Row>
