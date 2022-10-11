@@ -21,7 +21,6 @@ function App() {
         <Container style={{'textAlign':'center'}}>
           <Router>
               <Routes> 
-                {/* change the path! */}
                 <Route path={'/'} element={<Homepage/>}/>
               </Routes>
           </Router>

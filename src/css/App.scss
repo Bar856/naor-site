@@ -6,8 +6,6 @@ $navColor: #000000 ;
 * {
   font-family: "Rubik";
 }
-.pk_video {
-}
 // body
 body{
   background-color: rgb(0, 0, 0);
@@ -36,8 +34,8 @@ body{
   margin-top: 3vh;
 }
 .pinkBoarders{
-  border-left: $navColor 10px solid;
-  border-right: $navColor 10px solid;
+  border-left: $navColor 2vw solid;
+  border-right: $navColor 2vw solid;
 }
 // about
 .aboutCont{
@@ -98,7 +96,6 @@ body{
   width: 58vw;
 }
 // general
-
 *{
   text-align: "right";
   direction:'rtl';
@@ -139,18 +136,11 @@ html{
 .me-auto{
   margin: auto;
 }
-.pinkBG{
-  background-color: $baseColor;
-}
-.pink{
-  color: $baseColor;
-}
 .video-container {
   height: 100vh;
   width: 100vw;
   position: relative;
 }
-
 .video-container .introVid {
   width: 100vw;
   height: 100vh;
@@ -187,7 +177,3 @@ html{
     height: auto;
   }
 }
-/*
-@media (min-width: 1200px){
-   
-} */

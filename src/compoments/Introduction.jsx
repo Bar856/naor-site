@@ -17,16 +17,16 @@ export default function Introduction(props) {
         </Col>
       </Row>
       <Row className='contactContainer margeSides'>
-        <Col>
-          <div onClick={()=>{window.location = '#contact'}} className='smallFont contactItem hoverMouse pinkBoarders '>
-            {"השאר פרטים"}
-          </div>
-        </Col>
-        <Col>
-          <div onClick={()=>openInNewTab((" https://wa.me/972526810742?text=היי%20נאור,%20אני%20מעוניין%20להתחיל%20בתהליך!%20"))} className='smallFont contactItem pinkBoarders hoverMouse'>
-            {"שלח הודעה"}
-          </div>
-        </Col>
+          <Col>
+            <div onClick={()=>{window.location = '#contact'}} className='smallFont contactItem hoverMouse pinkBoarders '>
+              {"השאר פרטים"}
+            </div>
+          </Col>
+          <Col>
+            <div onClick={()=>openInNewTab((" https://wa.me/972526810742?text=היי%20נאור,%20אני%20מעוניין%20להתחיל%20בתהליך!%20"))} className='smallFont contactItem pinkBoarders hoverMouse'>
+              {"שלח הודעה"}
+            </div>
+          </Col>
       </Row>
   </div>
   )
