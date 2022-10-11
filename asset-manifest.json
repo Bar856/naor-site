@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/naor-site/static/css/main.7227951b.css",
-    "main.js": "/naor-site/static/js/main.679df87a.js",
+    "main.css": "/naor-site/static/css/main.a034e798.css",
+    "main.js": "/naor-site/static/js/main.26302647.js",
     "static/media/trainingExample.mp4": "/naor-site/static/media/trainingExample.537ac7092bed9bdad4e7.mp4",
     "static/media/naorslideshow.mp4": "/naor-site/static/media/naorslideshow.ca048160d2a3dc780e1b.mp4",
     "static/media/3.png": "/naor-site/static/media/3.810b08550d1a2c871dff.png",
@@ -25,11 +25,11 @@
     "static/media/whatsappLogo.png": "/naor-site/static/media/whatsappLogo.797f6053d983c556b753.png",
     "static/media/igIcon.png": "/naor-site/static/media/igIcon.7b5ded60fb333d11648d.png",
     "index.html": "/naor-site/index.html",
-    "main.7227951b.css.map": "/naor-site/static/css/main.7227951b.css.map",
-    "main.679df87a.js.map": "/naor-site/static/js/main.679df87a.js.map"
+    "main.a034e798.css.map": "/naor-site/static/css/main.a034e798.css.map",
+    "main.26302647.js.map": "/naor-site/static/js/main.26302647.js.map"
   },
   "entrypoints": [
-    "static/css/main.7227951b.css",
-    "static/js/main.679df87a.js"
+    "static/css/main.a034e798.css",
+    "static/js/main.26302647.js"
   ]
 }
