@@ -22,7 +22,7 @@ function App() {
           <Router>
               <Routes> 
                 {/* change the path! */}
-                <Route path={'/naor-site'} element={<Homepage/>}/>
+                <Route path={'/'} element={<Homepage/>}/>
               </Routes>
           </Router>
         </Container >
