@@ -14,12 +14,10 @@ export default function MyNavabr() {
     <Navbar className='navBar' collapseOnSelect={true} sticky="top" fixed='top' id="navbar navbarCont sticky" bg="black" variant="dark" expand="lg">
       <Container>
         <Navbar.Text className='white' href="#home">
-          {/* <a> */}
-            <img onClick={()=>openInNewTab((" https://wa.me/972526810742?text=היי%20נאור,%20אני%20מעוניין%20להתחיל%20בתהליך!%20"))} className='iconNav hoverMouse' src={whatsappLogo} alt="" />
-          {/* </a> */}
           <a href='#home'>
           <img className='iconNav hoverMouse' src={naorIconBlack} alt="logo"/>
           </a>
+          <img onClick={()=>openInNewTab((" https://wa.me/972526810742?text=היי%20נאור,%20אני%20מעוניין%20להתחיל%20בתהליך!%20"))} className='iconNavWts hoverMouse' src={whatsappLogo} alt="" />
             <img onClick={()=>openInNewTab('https://www.instagram.com/naor__mfitness/')} className='iconNav hoverMouse' src={igIcon} alt=""/></Navbar.Text>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

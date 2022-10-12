@@ -25,6 +25,11 @@ function App() {
               </Routes>
           </Router>
         </Container >
+        <footer className='center white' style={{
+          "paddingBottom":"2vh"
+        }}>
+          Designed By ® Bar Maizel All Rights Reserved
+        </footer>
       </div>
     </>
       
