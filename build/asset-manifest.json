@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5528ec9e.css",
-    "main.js": "/static/js/main.c7466a60.js",
+    "main.js": "/static/js/main.7b091f57.js",
     "static/media/trainingExample.mp4": "/static/media/trainingExample.537ac7092bed9bdad4e7.mp4",
     "static/media/naorslideshow.mp4": "/static/media/naorslideshow.ca048160d2a3dc780e1b.mp4",
     "static/media/3.png": "/static/media/3.810b08550d1a2c871dff.png",
@@ -20,16 +20,15 @@
     "static/media/whatsappVid.mp4": "/static/media/whatsappVid.1bbdb57c4094bfdd84d1.mp4",
     "static/media/arrow-gif.gif": "/static/media/arrow-gif.056dfb478e400930ebca.gif",
     "static/media/naorIconBlack.png": "/static/media/naorIconBlack.27481dcd087d4884e9c4.png",
-    "static/media/OldNewspaperTypes.ttf": "/static/media/OldNewspaperTypes.db3851a38ae93f4cc91f.ttf",
     "static/media/logoNaor.png": "/static/media/logoNaor.ff448591b14e6b57eb32.png",
     "static/media/whatsappLogo.png": "/static/media/whatsappLogo.797f6053d983c556b753.png",
     "static/media/igIcon.png": "/static/media/igIcon.7b5ded60fb333d11648d.png",
     "index.html": "/index.html",
     "main.5528ec9e.css.map": "/static/css/main.5528ec9e.css.map",
-    "main.c7466a60.js.map": "/static/js/main.c7466a60.js.map"
+    "main.7b091f57.js.map": "/static/js/main.7b091f57.js.map"
   },
   "entrypoints": [
     "static/css/main.5528ec9e.css",
-    "static/js/main.c7466a60.js"
+    "static/js/main.7b091f57.js"
   ]
 }
